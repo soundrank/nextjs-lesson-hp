@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import Post from "../components/Post.js";
+import Post from "../components/post";
 import { getAllPostsData } from "../lib/posts";
 
 export default function Blog({ posts }) {
